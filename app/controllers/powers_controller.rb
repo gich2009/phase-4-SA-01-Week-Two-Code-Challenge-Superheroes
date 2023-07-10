@@ -4,6 +4,7 @@ class PowersController < ApplicationController
   rescue_from ActiveRecord::RecordInvalid,  with: :render_unprocessable_entity
   skip_before_action :verify_authenticity_token
 
+
   def index
     powers = Power.all
     render json: powers, status: :ok
@@ -21,6 +22,7 @@ class PowersController < ApplicationController
   end
 
 
+  
   private
 
   def power_params
