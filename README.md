@@ -148,7 +148,7 @@ In case of an error, a JSON object will be returned in the following format:
 ```json
 
 {
-  "error": "error message"
+  "error": [error messages]
 }
 ```
 
