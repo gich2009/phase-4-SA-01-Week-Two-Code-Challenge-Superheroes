@@ -1,4 +1,4 @@
-# Hero Power Tracker API
+# Superheroes API
 
 ## Introduction
 
